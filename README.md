@@ -39,8 +39,8 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek di lingkungan Anda:
 1. **Clone repositori:**
 
    ```bash
-   git clone https://github.com/username/project-name.git
-   cd project-name
+   git clone https://github.com/salak96/express_js_tugas_sinau
+   cd express_js_tugas_sinau
    ```
 
 2. **Install dependencies:**
@@ -49,7 +49,7 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek di lingkungan Anda:
    npm install
    ```
 
-3. **Buat file `.env`:**
+3. **Edit file `.env.examp;e`:**
 
    ```env
    PORT=3000
@@ -76,7 +76,7 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek di lingkungan Anda:
 
 Berikut beberapa contoh endpoint yang bisa Anda sesuaikan:
 
-- **GET** `/api/` - Menampilkan pesan selamat datang.
+- **GET** `/api/` - Menampilkan welcome to express.
 - **POST** `/api/users` - Menambahkan user baru.
 - **GET** `/api/users` - Mendapatkan daftar user.
 
